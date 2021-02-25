@@ -24,12 +24,12 @@ You will need a text editor if you intend on installing this application. Visual
 
 ### Installing
 
-You can copy the raw code to install or use GitHub's guidelines to clone the repository. 
+You can copy the raw code to install or feel free to clone the repository. 
 
 ### Summary
-* HTML and CSS and Javascript documents create a random password generator.
-* Images provided display functionality of the application.
+* HTML, CSS, and Javascript documents create a random password generator.
 * This project uses Javascript to make dynamic changes to an HMTL document.
+* Images provided display functionality of the application.
 
 ### This project has the following features:
 * A window alert
@@ -46,7 +46,7 @@ You can copy the raw code to install or use GitHub's guidelines to clone the rep
 ![](Assets/Images/TextArea.png)
 
 * A Copy button 
-    * This will copy the users password to the user's devices clipboard
+    * This will copy the generated password to the user's devices clipboard
 
 ![](Assets/Images/CopyToClip.png)
 
