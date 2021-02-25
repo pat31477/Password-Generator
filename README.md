@@ -13,9 +13,9 @@ This project has been deployed to GitHub Pages. To run this project, you can fol
 * [GitHub Repository](https://github.com/pat31477/Password-Generator)
 * [Deployed Page](https://pat31477.github.io/Password-Generator/.)
 
+Deployed application screen shot
 
-
-![Password-Generator Screen Shot](Assets/Images/ScreenShot1.png)
+![](Assets/Images/ScreenShot1.png)
 
 ### Prerequisites
 You will need a text editor if you intend on installing this application. Visual Studio Code is recommended.
