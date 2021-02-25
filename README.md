@@ -11,8 +11,7 @@ This application uses Javascript to generate a random, secure password for the u
 This project has been deployed to GitHub Pages. To run this project, you can follow the deployment link. Or, download the sources files to use as a template.
 
 * [GitHub Repository](https://github.com/pat31477/Password-Generator)
-* [Deployed Page](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
-
+* [Deployed Page](https://pat31477.github.io/Password-Generator/.)
 
 
 
@@ -33,6 +32,9 @@ You can copy the raw code to install or use GitHub's guidelines to clone the rep
 ### This project has the following features:
 * A window alert
     * "Welcome! Please click 'Generate Password' to start!"
+
+![](Assets/Images/Alert1.png)
+
 * A generate button
     * This will send the user a series of prompts and confirms
     * After user data is collected, a random password will be generated using Javascript
@@ -51,15 +53,20 @@ You can copy the raw code to install or use GitHub's guidelines to clone the rep
 
 ### Project Requirements: 
 * The user will be prompted to choose from the following password criteria: 8 and 128 characters
+
+![](Assets/Images/UserSelections.png)
+
 * The user will recieve a confirm for: 
     * Password containing lower case, upper case, special characters, numbers.
     * This will need to randomly generate a selection or randomly select data, so math.random and math.floor will need to be used.     
-* The application should validate user input and ensure that at least one character type is selected.
-    * If, else if statement 
+* The application will validate user input and ensure that at least one character type is selected.
 * Once all prompts are answered, the user will be presented with a password matching the answered prompts.
 * Event listener will determine the password output with function to populate the value into the test area.
 * As a bonus, the user should also have the option to click a button to copy the password to their clipboard.
     * Copy execCommand in event listener
+
+![](Assets/Images/CopyToClip.png)
+
 
 ### This project has script features of:
 * Variable declaration area 
