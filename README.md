@@ -1,40 +1,111 @@
 # Password-Generator
 
-## Description
+This project is a homework assignment for Rutgers coding bootcamp. 
 
-This application generates a random password based on user-selected criteria.
-The application validates user input and ensure that at least one character type is selected.
-Once all prompts are answered, the user will be presented with a password matching the answered prompts.
-This application is also responsive, ensuring that it adapts to multiple screen sizes.
-
-## Installation
-
-Please visit the deployed project at: https://XRXXRXRXRXRXRXRXRXRXRXRXRXRXRXRX/ 
-
-## Usage
-Add more information to this section 
-
-![Image of the App](Assets/Images/ScreenShot1.PNG)
-
-### Instructions
-
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.
-The user will be prompted to choose from the following password criteria:
-1. Length (must be between 8 and 128 characters)
-2. Character type:
-
-    * Special characters: ![Image of the Special Character prompt](Assets/Images/SpecialChar.PNG)
+This application uses Javascript to generate a random, secure password for the user. 
 
 
-    * Numeric characters: ![Image of the Number prompt](Assets/Images/Numbers.PNG)
+
+## Getting Started
+
+This project has been deployed to GitHub Pages. To run this project, you can follow the deployment link. Or, download the sources files to use as a template.
+
+* [GitHub Repository](https://github.com/pat31477/Password-Generator)
+* [Deployed Page](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
 
 
-    * Lowercase characters: ![Image of the Lowercase prompt](Assets/Images/LowerCase.PNG)
 
 
-    * Uppercase characters: ![Image of the Upper Case prompt](Assets/Images/UpperCase.PNG)
+![Password-Generator Screen Shot](Assets/Images/ScreenShot1.png)
+
+### Prerequisites
+You will need a text editor if you intend on installing this application. Visual Studio Code is recommended.
+
+### Installing
+
+You can copy the raw code to install or use GitHub's guidelines to clone the repository. 
+
+### Summary
+* HTML and CSS and Javascript documents create a random password generator.
+* Images provided display functionality of the application.
+* This project uses Javascript to make dynamic changes to an HMTL document.
+
+### This project has the following features:
+* A window alert
+    * "Welcome! Please click 'Generate Password' to start!"
+* A generate button
+    * This will send the user a series of prompts and confirms
+    * After user data is collected, a random password will be generated using Javascript
+
+![](Assets/Images/GenerateButton.png)
+
+* A Textarea
+    * This textarea will display the users password once it is generated
+
+![](Assets/Images/TextArea.png)
+
+* A Copy button 
+    * This will copy the users password to the user's devices clipboard
+
+![](Assets/Images/CopyToClip.png)
+
+### Project Requirements: 
+* The user will be prompted to choose from the following password criteria: 8 and 128 characters
+* The user will recieve a confirm for: 
+    * Password containing lower case, upper case, special characters, numbers.
+    * This will need to randomly generate a selection or randomly select data, so math.random and math.floor will need to be used.     
+* The application should validate user input and ensure that at least one character type is selected.
+    * If, else if statement 
+* Once all prompts are answered, the user will be presented with a password matching the answered prompts.
+* Event listener will determine the password output with function to populate the value into the test area.
+* As a bonus, the user should also have the option to click a button to copy the password to their clipboard.
+    * Copy execCommand in event listener
+
+### This project has script features of:
+* Variable declaration area 
+* An event listener (onclick) called generatePassword
+    * This will prompt the user for input between 8-128
+    * A While loop will validate that the input is a number within range, or is a number
+    * This then uses the input to determine the types (or choices) or letters of characters used, using an if statement
+    * This then assigns values to the variables using arrays for character, number or alphabet
+* Another variable is created to concatenate the above variables
+* A for loop will loop through the enter prompt until it reaches the number entered by user. 
+* A password variable takes the value from the for loop, and converts it to a string. 
+* The string value then populates into the text area for the user using a UserInput function.
+* An event listener (onlick) has also been created for the copy to clipboard feauture. 
 
 
-3. The user MUST choose at least one charachter type or they will be prompted.
+### To Execute File:
+> Open in browser
 
-![Image of the must choose at least one](Assets/Images/MustChooseAtLeast.PNG)
+### Features: 
+* One HTML Pages
+    * Index.html 
+        * Contains basic user input items and buttons with divs and ids
+* One CSS Page
+    * Styles.css
+        * Contains centering and styling for html user input features
+* One Javascript Page
+        * Contains: 
+        * Variables
+        * While Loop
+        * Various if statements
+        * One For Loop
+
+
+
+* **Patrick E. Walker** - [Git Hub Profile](https://github.com/pat31477)
+
+## Acknowledgments for advice and assistance:
+
+* Steve Marsh
+
+* Ben Durham
+
+* Gabe Thomas
+
+* Jason Barbanel
+
+* Takuya Matsumoto
+
+
