@@ -13,11 +13,6 @@ This project has been deployed to GitHub Pages. To run this project, you can fol
 * [GitHub Repository](https://github.com/pat31477/Password-Generator)
 * [Deployed Page](https://pat31477.github.io/Password-Generator/.)
 
-### Deployed application screen shot
-
-
-![ScreenShot](Assets\Images\ScreenShot1.png?raw=true "ScreenShot")
-
 
 ### Prerequisites
 You will need a text editor if you intend on installing this application. Visual Studio Code is recommended.
@@ -30,6 +25,8 @@ You can copy the raw code to install or use GitHub's guidelines to clone the rep
 * HTML and CSS and Javascript documents create a random password generator.
 * Images provided display functionality of the application.
 * This project uses Javascript to make dynamic changes to an HMTL document.
+
+![ScreenShot](Assets/Images/ScreenShot1.png?raw=true "ScreenShot")
 
 ### This project has the following features:
 * A window alert
