@@ -23,20 +23,17 @@ The user will be prompted to choose from the following password criteria:
 1. Length (must be between 8 and 128 characters)
 2. Character type:
 
-    * Special characters
-![Image of the Special Character prompt](Assets/Images/SpecialChar.PNG)
+    * Special characters: ![Image of the Special Character prompt](Assets/Images/SpecialChar.PNG)
 
-    * Numeric characters
 
-![Image of the Number prompt](Assets/Images/Numbers.PNG)
+    * Numeric characters: ![Image of the Number prompt](Assets/Images/Numbers.PNG)
 
-    * Lowercase characters
 
-![Image of the Lowercase prompt](Assets/Images/LowerCase.PNG)
+    * Lowercase characters: ![Image of the Lowercase prompt](Assets/Images/LowerCase.PNG)
 
-    * Uppercase characters
 
-![Image of the Upper Case prompt](Assets/Images/UpperCase.PNG)
+    * Uppercase characters: ![Image of the Upper Case prompt](Assets/Images/UpperCase.PNG)
+
 
 3. The user MUST choose at least one charachter type or they will be prompted.
 
