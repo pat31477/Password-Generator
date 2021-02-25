@@ -15,7 +15,7 @@ This project has been deployed to GitHub Pages. To run this project, you can fol
 
 Deployed application screen shot
 
-![](Assets/Images/ScreenShot1.png)
+![](Assets\Images\ScreenShot1.png)
 
 ### Prerequisites
 You will need a text editor if you intend on installing this application. Visual Studio Code is recommended.
