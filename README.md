@@ -14,7 +14,7 @@ Please visit the deployed project at: https://XRXXRXRXRXRXRXRXRXRXRXRXRXRXRXRX/
 ## Usage
 Add more information to this section 
 
-![Image of the App](03-JavaScript-ADD THIS LATER-demo.png)
+![Image of the App](Assets/Images/ScreenShot1.PNG)
 
 ### Instructions
 
