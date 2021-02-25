@@ -16,7 +16,7 @@ This project has been deployed to GitHub Pages. To run this project, you can fol
 ### Deployed application screen shot
 
 
-![Top-Page-Area](/Assets/Images/ScreenShot1.png?raw=true "Top-Page-Area")
+![ScreenShot](Assets\Images\ScreenShot1.png?raw=true "ScreenShot")
 
 
 ### Prerequisites
@@ -64,7 +64,7 @@ You can copy the raw code to install or use GitHub's guidelines to clone the rep
 * As a bonus, the user should also have the option to click a button to copy the password to their clipboard.
     * Copy execCommand in event listener
 
-![](Assets/Images/CopyToClip.png)
+![](Assets/Images/CopiedToClip.png)
 
 
 ### This project has script features of:
