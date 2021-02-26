@@ -1,4 +1,6 @@
 
+//alert to greet user and prompt to click generate button
+
 window.onload = alert("Welcome! Please click 'Generate Password' to start!");
 
 
@@ -43,7 +45,7 @@ function generate() {
             specialSelection = true
         }
 
-        if (confirm("Would you like to use numerical characters?") == true) {
+        if (confirm("Would you like to use numbers?") == true) {
             numberSelection = true
         }
 //if none of the character types are selected, alerts the user to choose at least one
