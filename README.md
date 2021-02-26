@@ -34,6 +34,9 @@ You can copy the raw code to install or feel free to clone the repository.
 ### This project has the following features:
 * A window alert
     * "Welcome! Please click 'Generate Password' to start!"
+
+![](Assets/Images/Alert.png)
+
 * A generate button
     * This will send the user a series of prompts and confirms
     * After user data is collected, a random password will be generated using Javascript
